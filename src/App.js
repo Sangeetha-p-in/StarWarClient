@@ -2,9 +2,6 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Databutton from "./Databutton.js";
-import Amplify from "aws-amplify"
-import awsmobile from "./aws-exports"
-Amplify.configure(awsmobile)
 
 function App() {
     return (
