@@ -10,7 +10,7 @@ class Databutton extends React.Component {
             answer2: "",
             answer3: [],
             answer4: [],
-            baseurl:"http://starwarapi-prod.us-west-2.elasticbeanstalk.com/"
+            baseurl:"http://starwarapi-test.us-west-2.elasticbeanstalk.com/"
         }
     }
 
@@ -84,25 +84,25 @@ class Databutton extends React.Component {
                     <p className={!this.state.click ? "questionClass" : "hidden"}>
                         Which species appeared in the most number of StarWars films?
                     </p>
-                    <p className={!this.state.click ? "answerClass" : "hidden"}>
-                        {this.state.answer3.map((answer) => (
-                            <p>{answer.Name} ({answer.Count})</p>
+                    <div className={!this.state.click ? "answerClass" : "hidden"}>
+                        {this.state.answer3.map((answer,index) => (
+                            <p key={index}>{answer.Name} ({answer.Count})</p>
                         ))}
-                    </p>
+                    </div>
                     <p className={!this.state.click ? "questionClass" : "hidden"}>
                         What planet in StarWars universe provided largest number of vehicle pilots?
                     </p>
-                    <p className={!this.state.click ? "answerClass" : "hidden"}>
-                        {this.state.answer4.map((answer) => (
-                            <p>Planet: {answer.PlanetName} - Pilots: ({answer.Count})
+                    <div className={!this.state.click ? "answerClass" : "hidden"}>
+                        {this.state.answer4.map((answer,index) => (
+                            <p key={index}>Planet: {answer.PlanetName} - Pilots: ({answer.Count})
                                {
-                                    answer.PilotNames.map(item => {
-                                        return (<span> {item.PilotName} - {item.SpeciesName}, </span>)
+                                    answer.PilotNames.map((item,i) => {
+                                        return (<span key={i}> {item.PilotName} - {item.SpeciesName}, </span>)
                                     })
                                 }
                             </p>
                         ))}
-                    </p>
+                    </div>
                 </div>
             </div>
         );
