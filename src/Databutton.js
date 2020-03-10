@@ -10,7 +10,7 @@ class Databutton extends React.Component {
             answer2: "",
             answer3: [],
             answer4: [],
-            baseurl:"http://starwarapi-test.us-west-2.elasticbeanstalk.com/"
+            baseurl:"http://starwarapi-prod.us-west-2.elasticbeanstalk.com/"
         }
     }
 
