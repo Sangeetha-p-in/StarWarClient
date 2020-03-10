@@ -94,13 +94,13 @@ class Databutton extends React.Component {
                     </p>
                     <div className={!this.state.click ? "answerClass" : "hidden"}>
                         {this.state.answer4.map((answer,index) => (
-                            <p key={index}>Planet: {answer.PlanetName} - Pilots: ({answer.Count})
+                            <div key={index}><p>Planet: {answer.PlanetName} - Pilots: ({answer.Count})</p>
                                {
                                     answer.PilotNames.map((item,i) => {
                                         return (<span key={i}> {item.PilotName} - {item.SpeciesName}, </span>)
                                     })
                                 }
-                            </p>
+                            </div>
                         ))}
                     </div>
                 </div>
