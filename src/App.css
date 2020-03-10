@@ -1,0 +1,132 @@
+.App {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.App-logo {
+    height: 37vmin;
+    pointer-events: none;
+    margin-bottom:8%;
+}
+
+.App-header {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+/*Class for controls*/
+.form-control {
+    float: left;
+    width: 100%;
+}
+/*hidden class*/
+.hidden {
+    display: none;
+}
+
+/*Left align*/
+.leftAlign {
+    float: left;
+}
+
+/*Right align*/
+.rightAlign {
+    float: right;
+}
+
+/*Shadow class*/
+.shadowClass {
+    border-radius: 15px;
+}
+
+/*Size of star*/
+.starSize {
+    font-size: 40px;
+}
+
+.questionClass
+{
+    margin-top:5%;
+    margin-bottom:2%;
+    font-size:23px;
+    font-weight:bolder;
+}
+
+.answerClass {
+    margin-top: 3%;
+    color: #C8AC0C;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/*Button Classes*/
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    min-height: 85px;
+    height: auto;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #FEE626;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+}
+
+.button:hover {
+    background-color: #FEEC64;
+}
+
+.activeButton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    min-height: 85px;
+    height: auto;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    background-color: #FEEC64;
+    border: none;
+    border-radius: 15px;
+    transform: translateY(1px);
+    color: #C8AC0C;
+    box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+    opacity: 0.3;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+        .Login form {
+            margin: 0 auto;
+            max-width: 320px;
+        }
+} 
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
