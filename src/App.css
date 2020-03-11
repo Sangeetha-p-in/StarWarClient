@@ -70,7 +70,7 @@
 .button {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 25px;
+    font-size: 21px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     min-height: 85px;
@@ -93,7 +93,7 @@
 .activeButton {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 25px;
+    font-size: 21px;
     font-family: 'Roboto';
     font-weight: bold;
     min-height: 85px;
