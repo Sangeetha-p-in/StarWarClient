@@ -112,7 +112,6 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
 }
 
 /* Smartphones (landscape) ----------- */
@@ -158,7 +157,6 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -181,7 +179,6 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
 }
 
 /* iPads (landscape) ----------- */
@@ -204,7 +201,6 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
 }
 
 /* iPads (portrait) ----------- */
@@ -227,7 +223,6 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
 }
 
 /* Desktops and laptops ----------- */
@@ -250,7 +245,6 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
 }
 
 /* Large screens ----------- */
@@ -273,7 +267,6 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
 }
 
 /* iPhone 4 ----------- */
@@ -296,7 +289,6 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
 }
 
 @keyframes App-logo-spin {
