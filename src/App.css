@@ -72,26 +72,6 @@
     background-color: #FEEC64;
 }
 
-.activeButton {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 21px;
-    font-family: 'Roboto';
-    font-weight: bold;
-    min-height: 85px;
-    height: auto;
-    cursor: pointer;
-    text-decoration: none;
-    outline: none;
-    background-color: #FEEC64;
-    border: none;
-    border-radius: 15px;
-    transform: translateY(1px);
-    color: #C8AC0C;
-    box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
-    opacity: 0.3;
-}
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .button {
@@ -111,6 +91,26 @@
         border: none;
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+    }
+
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 10px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
     }
 }
 
@@ -134,7 +134,25 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
-
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 10px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
+    }
 }
 
 /* Smartphones (portrait) ----------- */
@@ -156,6 +174,26 @@
         border: none;
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+    }
+
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 14px !important;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
     }
 }
 
@@ -179,6 +217,25 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 33px !important;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
+    }
 }
 
 /* iPads (landscape) ----------- */
@@ -200,6 +257,25 @@
         border: none;
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+    }
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 26px !important;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
     }
 }
 
@@ -223,6 +299,25 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 10px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
+    }
 }
 
 /* Desktops and laptops ----------- */
@@ -244,6 +339,25 @@
         border: none;
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+    }
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 21px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
     }
 }
 
@@ -267,6 +381,25 @@
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
     }
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 21px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
+    }
 }
 
 /* iPhone 4 ----------- */
@@ -288,6 +421,25 @@
         border: none;
         border-radius: 15px;
         box-shadow: 0 12px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+    }
+    .activeButton {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 14px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        min-height: 85px;
+        height: auto;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: #FEEC64;
+        border: none;
+        border-radius: 15px;
+        transform: translateY(1px);
+        color: #C8AC0C;
+        box-shadow: 0 5px #C8AC0C,-1px 17px 12px grey,1px -1px 12px grey;
+        opacity: 0.3;
     }
 }
 
